@@ -1,0 +1,33 @@
+            3.0
+Export Makefile
+EExport buildcommand.json
+
+            4.0
+Support for modules
+Easy build, not build.sh/build.bat
+
+	        5.0
+Import repos
+	VCPKG
+	Conan
+	...
+Import CMake projects???
+
+        Unimplemented 
+mingw debugger
+
+
+Depends
+    Libs:
+        libc6
+        libstdc++
+        libopenssl
+    Shell:
+        rm
+        debuger, default:
+            gdb
+        compiler, default:
+            gcc
+            g++
+            g++-mingw-w64-x86-64-win32
+            gcc-mingw-w64-x86-64-win32
