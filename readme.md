@@ -24,6 +24,7 @@ main.cpp -> main file of Cbuild executable, change only if you know how CBuild w
 user_init.hpp -> headers of user scripts, have 1 function, that need to be called in main.cpp (init());  
 user_init.cpp -> implemenet init() form headers, thie function will be ruuned at a start of Cbuild, before all core functions.  
 example build script for lib and app that use it:
+<pre>
 // C++ libraries  
 #include "stdio.h"  
 // Userspace headers  
@@ -51,5 +52,5 @@ void init()
 	lib.set_type(CBuild::DYNAMIC_LIBRARY);  
 	CBuild::Registry::RegisterTarget(&lib);  
 }  
-  
+</pre>
 It uses g++ as compiler, as c++20
