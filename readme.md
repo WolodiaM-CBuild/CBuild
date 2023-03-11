@@ -4,7 +4,7 @@ All build scripts go into scripts folder
 All build scripts is written in C++ (can be written in C but CBuild does not have any C API)
 
 # Example
-This is folder structure
+This is folder structure:  
 project  
     |  
     |- - build (will be created by CBuild)  
