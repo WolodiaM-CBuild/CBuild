@@ -1,7 +1,8 @@
 # VSCode
 .vscode
 # CBuild main gitnore
-build
+build/mull/**
+build/mull_lib/**
 cache
 # CBuild dev gitnore
 scripts
