@@ -5,6 +5,7 @@ All build scripts is written in C++ (can be written in C but CBuild does not hav
 
 # Example
 This is folder structure:  
+<pre>
 project  
     |  
     |- - build (will be created by CBuild)  
@@ -19,7 +20,7 @@ project
     |--- src (project code goes here)  
     |--- CBuild.run (main CBuild executable)  
     |--- build.sh (build script rebuild file (for now))  
-
+</pre>
 main.cpp -> main file of Cbuild executable, change only if you know how CBuild work internally  
 user_init.hpp -> headers of user scripts, have 1 function, that need to be called in main.cpp (init());  
 user_init.cpp -> implemenet init() form headers, thie function will be ruuned at a start of Cbuild, before all core functions.  
