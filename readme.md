@@ -1,4 +1,4 @@
-# CBuild
+# [CBuild, now here](https://sourceforge.net/projects/cbuild/)
 Full feathured build system for C / C++.
 All build scripts go into scripts folder.
 All build scripts is written in C++ (can be written in C but CBuild does not have any C API).
